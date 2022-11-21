@@ -1,0 +1,48 @@
+
+@import url('reset.css');
+/* NAVBAR */
+
+
+.badge-facture{
+     padding: 0.5em 5em 0.5em 0.5em;
+     border: 0.09em solid black;
+     border-radius: 0.5em;
+}
+
+.data-references{
+     font-size: 0.9em;
+}
+.data-references-title{
+     display: inline-block;
+     width: 120px;
+}
+.table-container{
+     padding: 1em
+}
+table th, table td{
+     border: none !important
+}
+table thead tr{
+     border-bottom: 0.2em solid black;
+}
+.table-footer{
+     border-top: 0.2em solid black;
+}
+table .sum-section td:last-child{
+     border-top: 0.1em solid black !important ;
+}
+table td.align-right, table th.align-right{
+     text-align: right !important;
+}
+.bordered-section{
+     border-top: 0.01em solid #00000040;
+}
+.background-image{
+     position: absolute;
+     z-index: -1;
+     width: 30vw;
+     transform: translate(25vw, -30vh);
+}
+.receiverinfo-container{
+     padding-right: 20vw;
+}
