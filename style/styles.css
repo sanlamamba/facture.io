@@ -40,8 +40,9 @@ table td.align-right, table th.align-right{
 .background-image{
      position: absolute;
      z-index: -1;
-     width: 30vw;
-     transform: translate(25vw, -30vh);
+     width: 300px;
+     transform: translate(20vw, -30vh);
+  opacity: 0.5
 }
 .receiverinfo-container{
      padding-right: 20vw;
